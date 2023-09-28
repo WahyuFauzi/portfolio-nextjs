@@ -1,10 +1,13 @@
 export default function ExperienceSection() {
 	return (
-		<div className="w-full my-12 flex justify-center">
-			<div className="w-1/3 mt-12 text-4xl text-center font-bold">
+		<div
+			className="w-full my-12 lg:flex lg:justify-center"
+			id="experience-section"
+		>
+			<div className="lg:w-1/3 mt-12 text-4xl text-center font-bold">
 				Experience
 			</div>
-			<div className="w-1/3 rounded">
+			<div className="mx-4 lg:w-1/3 rounded">
 				<ol class="relative border-l border-gray-200 dark:border-gray-700">
 					<li class="mb-10 ml-4">
 						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>

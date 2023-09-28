@@ -2,7 +2,10 @@ import ContactButton from './reusable/ContactButton';
 
 export default function ContactMeSection() {
 	return (
-		<div class="w-full p-4 text-center border-gray-200 shadow sm:p-8 bg-black">
+		<div
+			class="w-full p-4 text-center border-gray-200 shadow sm:p-8 bg-black"
+			id="contact-section"
+		>
 			<div className="text-4xl font-semibold">Contact</div>
 			<div class="items-center justify-center my-8 space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
 				<ContactButton
