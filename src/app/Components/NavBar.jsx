@@ -21,7 +21,7 @@ export default function NavBar() {
 	}, [menuRenderCondition]);
 
 	return (
-		<nav className="sticky top-0 z-10 border-gray-200 dark:bg-gray-900">
+		<nav className="sticky top-0 z-10 border-gray-200 bg-gray-900">
 			<div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 				<div className="w-1/2">
 					<Image src={Logo} width={80} height={160} alt="logo" />
