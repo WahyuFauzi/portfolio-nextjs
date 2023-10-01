@@ -7,6 +7,8 @@ import React, { useState, useEffect } from 'react';
 var menuClassName =
 	'w-4/5 mx-auto text-center top-16 left-0 right-0 text-sm fixed font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hidden';
 
+//TODO embed condtional rendering in navbar, dont use useEffect in this same file
+
 export default function NavBar() {
 	const [menuRenderCondition, setMenuRenderCondition] = useState(false);
 
@@ -18,6 +20,8 @@ export default function NavBar() {
 			menuClassName =
 				'w-4/5 mx-auto text-center top-16 left-0 right-0 text-sm fixed font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hidden';
 		}
+
+		console.log(menuRenderCondition);
 	}, [menuRenderCondition]);
 
 	return (
