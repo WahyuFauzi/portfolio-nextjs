@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
-export default function PopUpNavbar() {
-	const [menuRenderCondition, setMenuRenderCondition] = useState(false);
-
+export default function PopUpNavbar({ menuRenderCondition }) {
 	return (
 		<ul
 			className={`w-4/5 mx-auto text-center top-16 left-0 right-0 text-sm fixed font-medium text-gray-900 bg-white border border-gray-200 rounded-lg ${

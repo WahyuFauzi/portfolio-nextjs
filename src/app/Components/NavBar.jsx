@@ -4,25 +4,14 @@ import Image from 'next/image';
 import Logo from '../../../public/images/Logo2.png';
 import React, { useState, useEffect } from 'react';
 
-var menuClassName =
-	'w-4/5 mx-auto text-center top-16 left-0 right-0 text-sm fixed font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hidden';
-
 //TODO embed condtional rendering in navbar, dont use useEffect in this same file
 
 export default function NavBar() {
 	const [menuRenderCondition, setMenuRenderCondition] = useState(false);
 
-	useEffect(() => {
-		if (menuRenderCondition == true) {
-			menuClassName =
-				'w-4/5 mx-auto text-center top-16 left-0 right-0 text-sm fixed font-medium text-gray-900 bg-white border border-gray-200 rounded-lg lg:hidden md:block';
-		} else if (menuRenderCondition == false) {
-			menuClassName =
-				'w-4/5 mx-auto text-center top-16 left-0 right-0 text-sm fixed font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hidden';
-		}
-
-		console.log(menuRenderCondition);
-	}, [menuRenderCondition]);
+	const menuClassName = menuRenderCondition
+		? 'w-4/5 mx-auto text-center top-16 left-0 right-0 text-sm fixed font-medium text-gray-900 bg-white border border-gray-200 rounded-lg lg:hidden md:block'
+		: 'w-4/5 mx-auto text-center top-16 left-0 right-0 text-sm fixed font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hidden';
 
 	return (
 		<nav className="sticky top-0 z-10 border-gray-200 bg-white dark:bg-gray-900">
@@ -51,7 +40,7 @@ export default function NavBar() {
 						/>
 					</svg>
 				</div>
-				<ul class={menuClassName}>
+				<ul className={menuClassName}>
 					<li
 						className="w-full"
 						onClick={() => {

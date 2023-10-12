@@ -8,13 +8,13 @@ export default function ExperienceSection() {
 				Experience
 			</div>
 			<div className="mx-4 lg:w-1/3 rounded">
-				<ol class="relative border-l border-gray-200 dark:border-gray-700">
-					<li class="mb-10 ml-4">
-						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-						<time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+				<ol className="relative border-l border-gray-200 dark:border-gray-700">
+					<li className="mb-10 ml-4">
+						<div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+						<time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
 							September 2023 - Current
 						</time>
-						<h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+						<h3 className="text-lg font-semibold text-gray-900 dark:text-white">
 							Data Analyst Associate
 						</h3>
 						<ul className="ml-6 list-disc">
@@ -36,12 +36,12 @@ export default function ExperienceSection() {
 							</li>
 						</ul>
 					</li>
-					<li class="mb-10 ml-4">
-						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-						<time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+					<li className="mb-10 ml-4">
+						<div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+						<time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
 							May - August 2023
 						</time>
-						<h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+						<h3 className="text-lg font-semibold text-gray-900 dark:text-white">
 							Data Analyst at Ministry of Development and Planning (Bappenas)
 						</h3>
 						<ul className="ml-6 list-disc">
@@ -68,12 +68,12 @@ export default function ExperienceSection() {
 							</li>
 						</ul>
 					</li>
-					<li class="ml-4">
-						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-						<time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+					<li className="ml-4">
+						<div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+						<time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
 							August 2022 - January 2023
 						</time>
-						<h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+						<h3 className="text-lg font-semibold text-gray-900 dark:text-white">
 							Research Assistant
 						</h3>
 						<ul className="ml-6 list-disc">
