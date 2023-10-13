@@ -20,7 +20,7 @@ export default function ProjectsSection() {
 				/>
 				<Card
 					imageUrl={SEABankPicture}
-					cardTitle="Economy, Enivronment, and Earth's Future"
+					cardTitle="SEA Bank Dataset"
 					cardUrl="https://www.kaggle.com/datasets/wahyuwardana/sea-bank-data"
 				/>
 			</div>
