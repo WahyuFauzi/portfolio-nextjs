@@ -89,7 +89,6 @@ export default function NavBar() {
 							</div>
 						</a>
 					</li>
-
 					<li
 						className="w-full"
 						onClick={() => {
