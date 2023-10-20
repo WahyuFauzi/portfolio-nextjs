@@ -71,6 +71,18 @@ export default function NavBar() {
 							setMenuRenderCondition(!menuRenderCondition);
 						}}
 					>
+						<a href="#skills-section">
+							<div className="w-full px-4 py-2 border-b border-gray-200 rounded-t-lg hover:text-white hover:bg-gray-500 hover:cursor-pointer">
+								Skills
+							</div>
+						</a>
+					</li>
+					<li
+						className="w-full"
+						onClick={() => {
+							setMenuRenderCondition(!menuRenderCondition);
+						}}
+					>
 						<a href="#experience-section">
 							<div className="w-full px-4 py-2 border-b border-gray-200 rounded-t-lg hover:text-white hover:bg-gray-500 hover:cursor-pointer">
 								Experience
@@ -127,6 +139,14 @@ export default function NavBar() {
 								className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
 							>
 								Experience
+							</a>
+						</li>
+						<li>
+							<a
+								href="#skills-section"
+								className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+							>
+								Skills
 							</a>
 						</li>
 						<li>

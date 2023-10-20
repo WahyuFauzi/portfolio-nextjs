@@ -1,6 +1,6 @@
 export default function AboutMeSection() {
 	return (
-		<div className="w-4/5 mx-auto text-center" id="about-section">
+		<div className="w-4/5 mx-auto text-center pt-12" id="about-section">
 			<h2 className="my-6 text-4xl font-bold">About Me</h2>
 			<p className="text-xl text-justify">
 				Change-driven, creative Data Analyst with a passion for continuous

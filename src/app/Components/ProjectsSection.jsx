@@ -5,7 +5,7 @@ import SEABankPicture from '../../../public/images/SEA Bank.png';
 
 export default function ProjectsSection() {
 	return (
-		<div className="w-full px-8 my-8" id="projects-section">
+		<div className="w-full px-8 my-8 pt-24" id="projects-section">
 			<div className="text-4xl font-semibold">Projects by Me:</div>
 			<div className="lg:w-full md:w-2/3 mt-8 items-center lg:flex lg:justify-around md:mx-auto">
 				<Card
