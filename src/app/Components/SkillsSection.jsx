@@ -10,6 +10,7 @@ import HTMLAndCSSLogo from '../../../public/images/skills/HTML & CSS-logo.png';
 import ReactLogo from '../../../public/images/skills/React-logo.png';
 import NextJSLogo from '../../../public/images/skills/NextJS-logo.png';
 import ExpressJSLogo from '../../../public/images/skills/ExpressJS-logo.png';
+import AndroidLogo from '../../../public/images/skills/Android-logo.png';
 import JavaLogo from '../../../public/images/skills/Java-logo.png';
 import KotlinLogo from '../../../public/images/skills/Kotlin-logo.png';
 import ComposeLogo from '../../../public/images/skills/Compose-logo.png';
@@ -25,7 +26,7 @@ export default function SkillsSection() {
 			<div className="w-full my-4">
 				<div className="w-full">
 					<h3 className="text-2xl mb-2">Data Analysis</h3>
-					<ul className="w-full flex justify-start">
+					<ul className="w-full flex justify-start flex-wrap">
 						<li>
 							<SkillBox imageUrl={PythonLogo} skillName="Python" />
 						</li>
@@ -46,7 +47,7 @@ export default function SkillsSection() {
 
 				<div className="w-full my-4">
 					<h3 className="text-2xl mb-2">Web Development</h3>
-					<ul className="flex">
+					<ul className="w-full flex justify-start flex-wrap">
 						<li>
 							<SkillBox imageUrl={HTMLAndCSSLogo} skillName="HTML & CSS" />
 						</li>
@@ -73,7 +74,10 @@ export default function SkillsSection() {
 
 				<div className="w-full my-4">
 					<h3 className="text-2xl mb-2">Mobile Development</h3>
-					<ul className="flex">
+					<ul className="w-full flex justify-start flex-wrap">
+						<li>
+							<SkillBox imageUrl={AndroidLogo} skillName="Android" />
+						</li>
 						<li>
 							<SkillBox imageUrl={JavaLogo} skillName="Java" />
 						</li>
