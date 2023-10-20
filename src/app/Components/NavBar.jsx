@@ -71,9 +71,9 @@ export default function NavBar() {
 							setMenuRenderCondition(!menuRenderCondition);
 						}}
 					>
-						<a href="#skills-section">
+						<a href="#experience-section">
 							<div className="w-full px-4 py-2 border-b border-gray-200 rounded-t-lg hover:text-white hover:bg-gray-500 hover:cursor-pointer">
-								Skills
+								Experience
 							</div>
 						</a>
 					</li>
@@ -83,12 +83,13 @@ export default function NavBar() {
 							setMenuRenderCondition(!menuRenderCondition);
 						}}
 					>
-						<a href="#experience-section">
+						<a href="#skills-section">
 							<div className="w-full px-4 py-2 border-b border-gray-200 rounded-t-lg hover:text-white hover:bg-gray-500 hover:cursor-pointer">
-								Experience
+								Skills
 							</div>
 						</a>
 					</li>
+
 					<li
 						className="w-full"
 						onClick={() => {
