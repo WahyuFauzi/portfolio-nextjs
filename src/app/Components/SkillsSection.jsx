@@ -1,6 +1,7 @@
 import SkillBox from './reusable/SkillBox';
 
-import JavascriptLogo from '../../../public/images/skills/JavaScript-logo.png';
+import JavaScriptLogo from '../../../public/images/skills/JavaScript-logo.png';
+import TypeScriptLogo from '../../../public/images/skills/TypeScript-logo.webp';
 import PythonLogo from '../../../public/images/skills/Python-logo.png';
 import SQLLogo from '../../../public/images/skills/SQL-logo.png';
 import TableauLogo from '../../../public/images/skills/Tableau-logo.png';
@@ -9,6 +10,7 @@ import LookerLogo from '../../../public/images/skills/Looker-logo.png';
 import HTMLAndCSSLogo from '../../../public/images/skills/HTML & CSS-logo.png';
 import ReactLogo from '../../../public/images/skills/React-logo.png';
 import NextJSLogo from '../../../public/images/skills/NextJS-logo.png';
+import NestJSLogo from '../../../public/images/skills/NestJS-logo.svg';
 import ExpressJSLogo from '../../../public/images/skills/ExpressJS-logo.png';
 import AndroidLogo from '../../../public/images/skills/Android-logo.png';
 import JavaLogo from '../../../public/images/skills/Java-logo.png';
@@ -52,7 +54,10 @@ export default function SkillsSection() {
 							<SkillBox imageUrl={HTMLAndCSSLogo} skillName="HTML & CSS" />
 						</li>
 						<li>
-							<SkillBox imageUrl={JavascriptLogo} skillName="Javascript" />
+							<SkillBox imageUrl={JavaScriptLogo} skillName="JavaScript" />
+						</li>
+						<li>
+							<SkillBox imageUrl={TypeScriptLogo} skillName="TypeScript" />
 						</li>
 						<li>
 							<SkillBox imageUrl={ReactLogo} skillName="ReactJS" />
@@ -65,6 +70,9 @@ export default function SkillsSection() {
 						</li>
 						<li>
 							<SkillBox imageUrl={ExpressJSLogo} skillName="ExpressJS" />
+						</li>
+						<li>
+							<SkillBox imageUrl={NestJSLogo} skillName="NestJS" />
 						</li>
 						<li>
 							<SkillBox imageUrl={SpringLogo} skillName="Spring" />
