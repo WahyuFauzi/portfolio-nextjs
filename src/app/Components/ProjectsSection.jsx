@@ -11,7 +11,7 @@ export default function ProjectsSection() {
 			<div className="text-4xl w-4/5 mx-auto font-semibold">
 				Projects by Me:
 			</div>
-			<div className="lg:w-10/12 md:w-2/3 mx-auto border-l-orange-400 lg:flex lg:justify-start">
+			<div className="md:w-10/12 mx-auto lg:flex lg:justify-start">
 				<Card
 					imageUrl={EEEImage}
 					cardTitle="Economy, Enivronment, and Earth's Future"
@@ -28,7 +28,7 @@ export default function ProjectsSection() {
 					cardUrl="https://www.kaggle.com/datasets/wahyuwardana/sea-bank-data"
 				/>
 			</div>
-			<div className="lg:w-10/12 md:w-2/3 mx-auto border-l-orange-400 lg:flex lg:justify-start">
+			<div className="md:w-10/12 mx-auto lg:flex lg:justify-start">
 				<Card
 					imageUrl={PortfolioPicture}
 					cardTitle="Website Portfolio"

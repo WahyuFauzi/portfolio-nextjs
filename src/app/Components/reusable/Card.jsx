@@ -1,7 +1,10 @@
 import Image from 'next/image';
 export default function Card({ imageUrl, cardTitle, cardUrl }) {
 	return (
-		<div className="w-80 max-[768x]:mx-auto md:mx-4 my-8 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+		<div
+			id="card"
+			className="w-80 mx-auto my-4 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+		>
 			<a href={cardUrl}>
 				<Image
 					className="rounded"
