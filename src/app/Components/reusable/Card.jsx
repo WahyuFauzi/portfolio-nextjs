@@ -3,7 +3,7 @@ export default function Card({ imageUrl, cardTitle, cardUrl }) {
 	return (
 		<div
 			id="card"
-			className="w-80 mx-auto my-4 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+			className="w-80 md:mx-4 max-md:mx-auto my-4 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
 		>
 			<a href={cardUrl}>
 				<Image
