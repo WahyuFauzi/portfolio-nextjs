@@ -19,8 +19,6 @@ import ComposeLogo from '../../../public/images/skills/Compose-logo.png';
 import SpringLogo from '../../../public/images/skills/Spring-logo.png';
 import TailwindLogo from '../../../public/images/skills/Tailwind-logo.png';
 
-import ContactButton from './reusable/ContactButton';
-
 export default function SkillsSection() {
 	return (
 		<div id="skills-section" className="w-4/5 mx-auto pt-24">
@@ -46,7 +44,6 @@ export default function SkillsSection() {
 						</li>
 					</ul>
 				</div>
-
 				<div className="w-full my-4">
 					<h3 className="text-2xl mb-2">Web Development</h3>
 					<ul className="w-full flex justify-start flex-wrap">
@@ -79,7 +76,6 @@ export default function SkillsSection() {
 						</li>
 					</ul>
 				</div>
-
 				<div className="w-full my-4">
 					<h3 className="text-2xl mb-2">Mobile Development</h3>
 					<ul className="w-full flex justify-start flex-wrap">

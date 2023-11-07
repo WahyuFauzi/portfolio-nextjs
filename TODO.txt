@@ -1,3 +1,1 @@
-# clean code
-# split code
-# create documentation
+// TODO add unit tests

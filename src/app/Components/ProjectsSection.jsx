@@ -15,12 +15,12 @@ export default function ProjectsSection() {
 				<Card
 					imageUrl={EEEImage}
 					cardTitle="Economy, Enivronment, and Earth's Future"
-					cardUrl="https://bit.ly/44xOHmX"
+					cardUrl="https://drive.google.com/file/d/11gk3QVyLJHkesQRCmLNXmgmOn--IrRt-/view?usp=drive_link"
 				/>
 				<Card
 					imageUrl={GFPPicture}
 					cardTitle="RevoU Group Final Project"
-					cardUrl={'https://bit.ly/3OYszfN'}
+					cardUrl="https://docs.google.com/presentation/d/1NjMxEoYrezoIQITgCcWiZeDCNT5shujKwdNQ5g_bwm4/edit?usp=drive_link"
 				/>
 				<Card
 					imageUrl={SEABankPicture}
